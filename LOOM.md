@@ -23,9 +23,9 @@ The brief asks for two questions answered in the first 60 seconds. Hit them in t
 
 Open `output/output.md`. Read it in this order:
 
-1. **LinkedIn post.** _"This is in the Studio voice. It publishes an opinion — 'the infrastructure story has been the wrong story for three years' — not a summary. It uses a real quote-worthy line from the call: 'workflow ownership, not a dashboard.'"_
-2. **Follow-up email to Priya.** _"The agent picked Priya as the key attendee, not the Utopia partners, because she gave the sharpest critique. The email leads with her actual words from the transcript — 'number one is a head start, not a moat' — and proposes a concrete next step."_
-3. **Press angle.** _"One sentence. Declarative. A journalist can quote it back."_
+1. **LinkedIn post.** _"This is in the Studio voice. It publishes an opinion — 'the bottleneck is paperwork, not cranes' — not a summary. It uses a real quote-worthy line from the call: 'workflow ownership, not chrome.'"_
+2. **Follow-up email to Karim, the Fellow.** _"Interesting call by the agent here. The system prompt said 'key external attendee, not Utopia staff.' The model treated the Fellow as the external party — which is actually defensible, since Fellows are co-builders, not employees. The email opens with Karim's own words from the transcript and proposes two concrete action items with deadlines. If the studio wanted email-to-Radical-Asia instead, that's one prompt tweak — the constraint is in plain English."_
+3. **Press angle.** _"One sentence. Declarative. Specific to dwell-time numbers. A journalist can quote it back without rewriting."_
 
 ## 3:00–4:00 — Show the envelope and the handoff
 
@@ -42,7 +42,7 @@ Open `output/output.json`.
 >
 > Two, I did not few-shot on real Studio posts. Cut for time, and because the voice constraints in the system prompt did most of the work.
 >
-> What surprised me: the model wants to summarise the meeting. The fix was one line — 'the studio publishes opinions, not summaries' — but I had to write it explicitly. That's the difference between a competent agent and a useful one."
+> What surprised me: the model wants to summarise the meeting. The fix was one line — 'the studio publishes opinions, not summaries' — but I had to write it explicitly. That's the difference between a competent agent and a useful one. Also flagged in the writeup: my first live test crashed on an Anthropic 401 with a stack trace, before I wrapped the call in exception handling. A tool an operator runs Monday morning should never crash with a Python traceback in front of them."
 
 ## 4:30–5:00 — Close
 
