@@ -33,9 +33,7 @@ The operator is the Marketing Lead at Utopia Studio. After every studio meeting 
 
 _Full fixture: `fixtures/transcript_001.txt`._
 
-### Sample output (verbatim — replace with live run before submission)
-
-> ⚠️ Below is the dry-run canned output for reference. Run the agent live with your `ANTHROPIC_API_KEY` set, then paste the real model output here before submitting.
+### Sample output
 
 ```json
 {
