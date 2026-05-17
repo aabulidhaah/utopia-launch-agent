@@ -1,0 +1,16 @@
+# ─────────────────────────────────────────────────────────────────────
+# FICTIONAL FIXTURE — created for the Utopia Studio take-home exercise.
+# All attendees and quotes are fabricated.
+# ─────────────────────────────────────────────────────────────────────
+# Meeting: Quick Studio Stand-up
+# Date: 2026-05-15, 09:00–09:08 Doha (UTC+3)
+# meeting_id grn_2026-05-15_standup_short
+# Attendees:
+#   - Layla Mahmoud (Utopia, Managing Partner)
+#   - Daniel Sterling (Utopia, CPO)
+
+[09:00] Layla Mahmoud: Quick one. Two updates and we close.
+[09:01] Daniel Sterling: G0 reviews are on for two fellows today. No red flags. Karim's moat ledger v2 landed yesterday — the head-start versus moat split is now explicit. That was the right note.
+[09:02] Layla Mahmoud: Good. Anything else?
+[09:03] Daniel Sterling: One. The press angle from Monday's pipeline call is the one I want us to publish this week. Paperwork problem, not crane problem.
+[09:04] Layla Mahmoud: Ship it. Adjourned.

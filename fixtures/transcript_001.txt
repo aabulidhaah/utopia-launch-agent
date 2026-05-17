@@ -1,0 +1,70 @@
+# ─────────────────────────────────────────────────────────────────────
+# FICTIONAL FIXTURE — created for the Utopia Studio take-home exercise.
+# All attendees, ventures, and quotes are fabricated. Real company names
+# (e.g. Hamad Port, Milaha) appear only as setting for a hypothetical case.
+# Do NOT treat any line in this file as a real attributable statement.
+# ─────────────────────────────────────────────────────────────────────
+# Granola transcript · Co-Build Pipeline Call · 2026-05-14
+# Meeting: Pipeline Review — Fellow Karim (Hadhar Logistics AI)
+# Date: 2026-05-14, 14:00–14:42 Doha (UTC+3)
+# Attendees:
+#   - Layla Mahmoud (Utopia, Managing Partner) — host
+#   - Daniel Sterling (Utopia, CPO)
+#   - Karim Hassan (Fellow, Hadhar)
+#   - Priya Anand (Radical Asia, Principal)
+#   - Marcus Lee (A-Typical Ventures, Director)
+# Recording: Granola · auto-tagged · meeting_id grn_2026-05-14_pipeline_hadhar
+
+[14:01] Layla Mahmoud: Quick agenda. Karim is in week three of M2 Discovery. We want to look at the discovery-call pipeline before G1, and Priya and Marcus weighed in on the Radical Asia side. Karim, kick us off.
+
+[14:02] Karim Hassan: So Hadhar is solving the same problem I lived for nine years at Milaha. Container dwell times at Hamad Port. Average dwell is sitting at 4.1 days. The published target is 2.5. The reason it's stuck isn't the cranes, it's the paperwork — customs declarations bounce between three systems and a human still copies fields between them.
+
+[14:03] Daniel Sterling: Hold on. You're saying the bottleneck isn't physical infrastructure, it's a translation layer between three customs systems?
+
+[14:03] Karim Hassan: Correct. And nobody owns it end to end. Each system has a different vendor, each vendor blames the others. The agent we're building reads the declaration, decides which fields go where, and writes back. Three pilots lined up — Milaha, QTerminals, and one freight forwarder I can't name yet.
+
+[14:04] Priya Anand: How many discovery calls have you actually closed for G1?
+
+[14:05] Karim Hassan: Two of three. One Doha-based — that's the freight forwarder. The third is sitting with a contact at DP World Sokhna. He's said yes verbally but hasn't blocked time.
+
+[14:05] Layla Mahmoud: G1 isn't satisfied with verbal. Book it or replace it. What's the next-best Qatar-based customer if the freight forwarder slips?
+
+[14:06] Karim Hassan: GWC. Operations director's name is Faisal — I've met him twice through Qatar Chamber events. Warm intro available.
+
+[14:07] Marcus Lee: I'd add one observation. We see this exact pattern across Southeast Asia ports. Tanjung Pelepas, Jakarta, Laem Chabang. Same translation-layer rot, same three-vendor knot. If Karim's wedge works in Doha, the regional read is huge. A-Typical would want to see that distribution thesis baked into the deck by G2.
+
+[14:08] Daniel Sterling: Karim — your moat ledger right now lists two reasons you can't be copied. What are they?
+
+[14:08] Karim Hassan: One, the customs API access. Qatar Customs gave Milaha a sandbox key two years ago. I retain authorisation as Milaha's authorised integrator. That doesn't transfer to a Western competitor for at least eighteen months. Two, the training corpus — I have nine years of cleaned declaration data with labels.
+
+[14:09] Priya Anand: Number two is the durable one. Number one is a head start, not a moat. Be honest with yourself about the difference.
+
+[14:10] Layla Mahmoud: Agree with Priya. Karim, by G2 I want the moat ledger rewritten with that delineation made explicit. Don't sell us a head start.
+
+[14:11] Karim Hassan: Fair. I'll rewrite it before Wednesday.
+
+[14:12] Daniel Sterling: Press angle for me — and Layla, you may have a different read — is that the dwell-time problem in the Gulf isn't an infrastructure story, it's a paperwork story. Every newspaper has been writing the wrong article for three years.
+
+[14:13] Layla Mahmoud: That's the line. Put it in the LinkedIn post when we publish the M2 milestone.
+
+[14:14] Marcus Lee: One more thing — we should think about who else needs to see this. The container-handling associations in Singapore are paying attention to Gulf operations right now. There's a panel at TOC Asia in October. Karim could be on it.
+
+[14:15] Karim Hassan: I'd take that. Let me put a one-pager together first.
+
+[14:16] Layla Mahmoud: Two action items. Karim: replace the verbal-yes with a booked call by Friday or substitute GWC. And rewrite the moat ledger before Wednesday with head-start versus durable advantage clearly split. Daniel owns the gate review.
+
+[14:17] Priya Anand: I'll send Karim a Radical Asia contact at PSA Singapore — useful for the regional thesis check, even if it's not a G1 call.
+
+[14:18] Daniel Sterling: Good. Anything else before we close?
+
+[14:19] Karim Hassan: One thing. I want to be clear — I'm not chasing a SaaS sticker. The wedge here is workflow ownership, not a dashboard. If the pilots want a dashboard I'll build one, but the value is the agent sitting on top of the customs API, not the chrome around it.
+
+[14:20] Layla Mahmoud: Good. Hold that line.
+
+[14:21] Daniel Sterling: That's the post. "We're not building a dashboard. We're building the agent that makes dashboards unnecessary." Or similar.
+
+[14:22] Layla Mahmoud: Adjourning. Karim, send us the rewritten moat ledger by Wednesday EOD. Thanks all.
+
+[14:22] Karim Hassan: Thanks everyone.
+
+# End transcript · runtime 21 min · transcribed by Granola v4.2
